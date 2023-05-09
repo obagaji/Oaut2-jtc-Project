@@ -1,0 +1,13 @@
+com\jtc\service\Oauthloginservice\exceptionClass\NoSuchNameException.class
+com\jtc\service\Oauthloginservice\oath2Controlleer\Controller.class
+com\jtc\service\Oauthloginservice\oauth2Entity\PersonEntity.class
+com\jtc\service\Oauthloginservice\oath2Service\OauthService.class
+com\jtc\service\Oauthloginservice\oauth2Entity\JwtService.class
+com\jtc\service\Oauthloginservice\oauth2Entity\OauthAuthenticalFilter.class
+com\jtc\service\Oauthloginservice\oauth2Dto\LoginDto.class
+com\jtc\service\Oauthloginservice\oauth2Config\ConfigClass.class
+com\jtc\service\Oauthloginservice\oauth2Entity\PersonUser.class
+com\jtc\service\Oauthloginservice\OauthLoginServiceApplication.class
+com\jtc\service\Oauthloginservice\oath2Controlleer\OauthController.class
+com\jtc\service\Oauthloginservice\oath2Repository\OauthRepository.class
+com\jtc\service\Oauthloginservice\oauth2Entity\PersonUserService.class

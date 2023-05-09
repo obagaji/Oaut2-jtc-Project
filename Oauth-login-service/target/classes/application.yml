@@ -1,0 +1,31 @@
+
+spring:
+  security:
+    oauth2:
+      registration:
+        google:
+          clientId: 214309837753-nmlupmd4e20dsmr9fdktjqju8po29mnf.apps.googleusercontent.com
+          clientSecret: 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
+        github:
+          clientId: Iv1.954870c95863deff
+          clientSecret: 0b52e2130949e271b2cd63acda9d241fe9965bac
+  datasource:
+    url: jdbc:postgresql://localhost:5432/oauth_login
+    driver-class-name: org.postgresql.Driver
+    username: jtc
+    password: Margrete1
+  jpa:
+    database: postgresql
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+server:
+  servlet:
+    context-path: /api
+  port: 8181
+
+
+
